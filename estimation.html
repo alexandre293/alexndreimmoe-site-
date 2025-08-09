@@ -1,0 +1,79 @@
+<!doctype html><html lang="fr"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Estimation · AlexndreImmoé</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"/>
+<link rel="stylesheet" href="styles.css"/></head><body>
+<div class="topbar">
+  <span>📞 +33 19 92 33 77</span> • <span>✉️ alexandre.livens06@gmail.com</span> • <span>✅ Réponse sous 24h</span>
+</div>
+<nav>
+  <div class="container nav">
+    <a class="logo" href="index.html"><span class="logo-mark"></span><span>AlexndreImmoé</span></a>
+    <button class="burger" onclick="toggleMenu()">☰</button>
+    <div class="menu" id="menu">
+      <a href="index.html">Accueil</a>
+      <a href="biens.html">Biens</a>
+      <a href="vendre.html">Vendre</a>
+      <a href="estimation.html">Estimation</a>
+      <a href="agence.html">L’Agence</a>
+      <a class="btn btn-primary" href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section class="section">
+  <div class="container grid grid-2">
+    <div>
+      <h2>Estimez votre bien</h2>
+      <p>Remplissez ce formulaire — <strong>réponse sous 24h</strong>.</p>
+      <form class="form" id="estimateForm">
+        <label>Type de bien</label>
+        <select id="type"><option>Appartement</option><option>Maison / Villa</option><option>Studio</option><option>Local / Bureau</option></select>
+        <label>Adresse</label><input class="input" id="address" placeholder="Adresse complète"/>
+        <label>Surface (m²)</label><input class="input" id="surface" type="number" min="1" placeholder="ex. 65"/>
+        <label>Chambres</label><input class="input" id="beds" type="number" min="0" placeholder="ex. 2"/>
+        <label>Nom</label><input class="input" id="name" placeholder="Votre nom"/>
+        <label>Téléphone</label><input class="input" id="phone" placeholder="Votre téléphone"/>
+        <label>Email</label><input class="input" id="mail" type="email" placeholder="Votre email"/>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+        <small>En envoyant, vous acceptez d’être contacté par AlexndreImmoé.</small>
+      </form>
+    </div>
+    <div>
+      <div class="alert">💡 Ajoutez : étage, ascenseur, état, vue, extérieur…</div>
+      <div style="margin-top:1rem" class="card"><div class="card-body">
+        <h3>Prix médians €/m² (indicatif)</h3>
+        <div class="tags"><span class="tag">Cannes Centre · 7 500</span><span class="tag">La Bocca · 4 800</span><span class="tag">Californie/Croix des Gardes · 8 900</span></div>
+      </div></div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container footer">
+    <div>
+      <div class="logo"><span class="logo-mark"></span><span>AlexndreImmoé</span></div>
+      <small>Achetez, vendez, louez à Cannes — simple, rapide, efficace.</small>
+      <small>📍 Cannes, France</small>
+      <small>✉️ alexandre.livens06@gmail.com · 📞 +33 19 92 33 77</small>
+      <small>🕘 Lun–Ven 9h–18h · Sam 10h–16h</small>
+    </div>
+    <div>
+      <h3>Navigation</h3>
+      <a href="biens.html">Biens</a><br/>
+      <a href="vendre.html">Vendre</a><br/>
+      <a href="estimation.html">Estimation</a><br/>
+      <a href="agence.html">L’Agence</a><br/>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div>
+      <h3>Contact direct</h3>
+      <a class="btn btn-ghost" href="mailto:alexandre.livens06@gmail.com">Écrire un email</a><br/><br/>
+      <a class="btn btn-primary" href="https://wa.me/3319923377" target="_blank" rel="noopener">WhatsApp</a>
+      <small>© AlexndreImmoé · Cannes</small>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+
+<div class="fab"><a href="https://wa.me/3319923377" target="_blank" rel="noopener">WhatsApp direct</a></div>
+</body></html>

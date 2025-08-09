@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cannes-centre-2p",
+    "titre": "2P rénové – Centre Cannes, à 5 min de la Croisette",
+    "ville": "Cannes",
+    "type": "Appartement",
+    "chambres": 1,
+    "sdb": 1,
+    "surface": 38,
+    "exterieur": "balcon",
+    "prix": 289000,
+    "exclusif": true,
+    "image": "assets/prop1.webp",
+    "description": "Idéal pied-à-terre ou investissement. Rénovation récente, petit balcon, faibles charges."
+  },
+  {
+    "id": "cannes-petit-juas-3p",
+    "titre": "3P traversant – Bas Petit Juas avec jardin",
+    "ville": "Cannes",
+    "type": "Appartement",
+    "chambres": 2,
+    "sdb": 1,
+    "surface": 67,
+    "exterieur": "jardin",
+    "prix": 399000,
+    "exclusif": true,
+    "image": "assets/prop2.webp",
+    "description": "Calme absolu, double exposition, jardin privatif. Idéal famille ou résidence secondaire."
+  },
+  {
+    "id": "californie-vue-mer",
+    "titre": "Vue mer – Californie, résidence de standing",
+    "ville": "Cannes",
+    "type": "Appartement",
+    "chambres": 2,
+    "sdb": 2,
+    "surface": 84,
+    "exterieur": "terrasse",
+    "prix": 895000,
+    "exclusif": false,
+    "image": "assets/prop3.webp",
+    "description": "Terrasse plein sud, vue mer panoramique, gardien, piscine. Prestations premium."
+  },
+  {
+    "id": "la-bocca-famille",
+    "titre": "Familial 4P – La Bocca proche mer",
+    "ville": "Cannes",
+    "type": "Appartement",
+    "chambres": 3,
+    "sdb": 2,
+    "surface": 92,
+    "exterieur": "terrasse",
+    "prix": 489000,
+    "exclusif": false,
+    "image": "assets/prop4.webp",
+    "description": "Grand séjour lumineux, résidence récente, écoles et commerces à pied."
+  }
+]

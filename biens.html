@@ -1,0 +1,75 @@
+<!doctype html><html lang="fr"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Biens · AlexndreImmoé</title>
+<meta name="description" content="Tous les biens à Cannes et alentours. Filtrez par type, prix, chambres.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"/>
+<link rel="stylesheet" href="styles.css"/></head><body>
+<div class="topbar">
+  <span>📞 +33 19 92 33 77</span> • <span>✉️ alexandre.livens06@gmail.com</span> • <span>✅ Réponse sous 24h</span>
+</div>
+<nav>
+  <div class="container nav">
+    <a class="logo" href="index.html"><span class="logo-mark"></span><span>AlexndreImmoé</span></a>
+    <button class="burger" onclick="toggleMenu()">☰</button>
+    <div class="menu" id="menu">
+      <a href="index.html">Accueil</a>
+      <a href="biens.html">Biens</a>
+      <a href="vendre.html">Vendre</a>
+      <a href="estimation.html">Estimation</a>
+      <a href="agence.html">L’Agence</a>
+      <a class="btn btn-primary" href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section class="section">
+  <div class="container">
+    <h2>Biens disponibles</h2>
+    <div class="filters">
+      <input class="input" id="q" placeholder="Rechercher : titre, ville..."/>
+      <select id="ftype"><option value="">Type</option><option>Appartement</option><option>Maison / Villa</option><option>Studio</option><option>Local / Bureau</option></select>
+      <select id="fbeds"><option value="">Chambres</option><option value="1">1+</option><option value="2">2+</option><option value="3">3+</option></select>
+      <input class="input" id="pmin" type="number" placeholder="Prix min (€)"/>
+      <input class="input" id="pmax" type="number" placeholder="Prix max (€)"/>
+      <button class="btn btn-primary" onclick="applyFilters()">Filtrer</button>
+      <button class="btn" onclick="resetFilters()">Réinitialiser</button>
+    </div>
+    <div class="grid grid-3" id="listings"></div>
+  </div>
+</section>
+<footer>
+  <div class="container footer">
+    <div>
+      <div class="logo"><span class="logo-mark"></span><span>AlexndreImmoé</span></div>
+      <small>Achetez, vendez, louez à Cannes — simple, rapide, efficace.</small>
+      <small>📍 Cannes, France</small>
+      <small>✉️ alexandre.livens06@gmail.com · 📞 +33 19 92 33 77</small>
+      <small>🕘 Lun–Ven 9h–18h · Sam 10h–16h</small>
+    </div>
+    <div>
+      <h3>Navigation</h3>
+      <a href="biens.html">Biens</a><br/>
+      <a href="vendre.html">Vendre</a><br/>
+      <a href="estimation.html">Estimation</a><br/>
+      <a href="agence.html">L’Agence</a><br/>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div>
+      <h3>Contact direct</h3>
+      <a class="btn btn-ghost" href="mailto:alexandre.livens06@gmail.com">Écrire un email</a><br/><br/>
+      <a class="btn btn-primary" href="https://wa.me/3319923377" target="_blank" rel="noopener">WhatsApp</a>
+      <small>© AlexndreImmoé · Cannes</small>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+
+<div class="fab"><a href="https://wa.me/3319923377" target="_blank" rel="noopener">WhatsApp direct</a></div>
+<div id="modal" class="modal" onclick="closeModal(event)">
+  <div class="card modal-card" id="modalCard">
+    <button class="close" onclick="closeModal(event)">✕</button>
+    <div id="modalContent" class="card-body"></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body></html>
